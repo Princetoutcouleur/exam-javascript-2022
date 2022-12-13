@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exo 1 / Examen Javascript</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Ajouter un éléve</legend>
+        <div id="form">
+            <div class="formcontent">
+                <label>Prénom</label>
+                <input type="text" id="prenom" placeholder="prénom"> <br>
+                <label>Année</label>
+                <input type="text" id="annee" placeholder="année"> <br>
+                <input type="submit" id="button"></input>
+            </div>
+            <div class="formcontent">
+                <label>Nom</label>
+                <input type="text" id="nom" placeholder="nom"> <br>
+                <label>Notes</label>
+                <input type="number" id="note" placeholder="notes"> <br>
+                <input type="reset"></input>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Liste des éléves</legend>
+        <table>
+            <thead>
+                <th>N°</th>
+                <th>PRENOM</th>
+                <th>NOM</th>
+                <th>ANNEE</th>
+                <th>NOTES</th>
+                <th>ACTIONS</th>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </fieldset>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
